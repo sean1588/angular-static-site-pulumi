@@ -1,0 +1,33 @@
+@import '../base/_variables.scss';
+@import '../utils/_flex';
+
+$info-box-height: 90px;
+$widget-action-button-size: 22px;
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        height: 20%;
+        width: 30%;
+    }
+
+    table {
+        width: 30%;
+
+        tr {
+
+            .price {
+                text-align: right;
+                width: 10%;
+            }
+
+            .item {
+                text-align: left;
+                width: 10%;
+            }
+        }
+    }
+}
