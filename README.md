@@ -11,4 +11,4 @@ This is an angular static website example using a site called Pulumi Cafe.
 1. Run  `npm start`
 1. Navigate to localhost:4200 in your browser
 
-Note: this project is currently only compatible with node 14 and under.
+**Note: this project is currently only compatible with node 14 and under.**
